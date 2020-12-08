@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Form</title>
+</head>
+<body>
+    <h2>Student Details Form:</h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName" id="">
+        </div>
+        <br>
+        <div>
+            Roll No: <input type="number" name="myRoll" id="">
+        </div>
+        <br>
+        <div>
+            Email ID: <input type="email" name="myEmail" id="">
+        </div>
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="myDOB" id="">
+        </div>
+        <br>
+        <div>
+            Are you in CS Department? <input type="checkbox" name="myDept" id="">
+        </div>
+        <br>
+        <div>
+            You are studing in which Year? 1st<input type="radio" name="myYear" id="">
+            2nd<input type="radio" name="myYear" id=""> 3rd<input type="radio" name="myYear" id="">
+            4th<input type="radio" name="myYear" id="">
+        </div>
+        <br>
+        <div>
+            <label for="sgpa">What was your SGPA in last Sem?</label>
+             <select name="mySGPA" id="sgpa">
+                <option value="a">Greater than 9 less than 10</option>
+                <option value="b">Greater than 8 less than 9</option>
+                <option value="c">Greater than 7 less than 8</option>
+                <option value="d">Less than 7 or below</option>
+                <option value="e"selected>Choose from here</option>
+             </select>       
+        </div>
+        <br>
+        <div>
+            Write About Yourself in 50 words: <br> 
+            <textarea name="myText" id="" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" name="Reset Now" id="">
+        </div>
+    </form>
+</body>
+</html>
